@@ -100,7 +100,7 @@ input, select, textarea {
 
 	body {
 		background-color: #2e3141;
-		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../css/images/mountains-6067150_1920.jpg");
+		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../css/images/electric-948208_1920.jpg");
 		background-size: auto,
  cover;
 		background-attachment: fixed,
@@ -2092,7 +2092,7 @@ input, select, textarea {
 
 /* Form */
 
-	/*form {
+	form {
 		margin: 0 0 2em 0;
 	}
 
@@ -2349,7 +2349,7 @@ input, select, textarea {
 	:-ms-input-placeholder {
 		color: rgba(255, 255, 255, 0.35) !important;
 		opacity: 1.0;
-	}*/
+	}
 
 /* Box */
 
@@ -2411,7 +2411,7 @@ input, select, textarea {
 
 /* Image */
 
-	/*.image {
+	.image {
 		border-radius: 5px;
 		border: 0;
 		display: inline-block;
@@ -2461,7 +2461,7 @@ input, select, textarea {
 
 			.image.main img {
 				width: 100%;
-			}*/
+			}
 
 /* List */
 
@@ -3018,9 +3018,9 @@ input, select, textarea {
 			.features article .image {
 				border-radius: 5px 5px 0 0;
 				display: block;
-				margin-bottom: 1.75em;
-				margin-left: -1.75em;
-				margin-top: -1.75em;
+				margin-bottom: 0.75em;
+				margin-left: 4.25em;
+				margin-top: 0.25em;
 				position: relative;
 				width: calc(100% + 3.5em);
 			}
@@ -3048,9 +3048,9 @@ input, select, textarea {
 			}
 
 				.features article .image {
-					margin-bottom: 1.5em;
-					margin-left: -1.5em;
-					margin-top: -1.5em;
+					margin-bottom: 0.75em;
+					margin-left: 3.25em;
+					margin-top: 0.25em;
 					width: calc(100% + 3em);
 				}
 
@@ -3397,7 +3397,9 @@ input, select, textarea {
 			transform: translateY(0);
 			opacity: 1;
 			margin: 0 0 1.3em 0;
+			margin-bottom: 10px;
 		}
+
 
 			#banner .logo .icon {
 				border-radius: 100%;
@@ -4007,7 +4009,7 @@ input, select, textarea {
 
 /* Footer */
 
-	/*#footer .inner {
+	#footer .inner {
 		padding: 5em 0 3em 0 ;
 		display: -moz-flex;
 		display: -webkit-flex;
@@ -4153,13 +4155,14 @@ input, select, textarea {
 			padding: 2em 1.5em 0.1em 1.5em ;
 		}
 
-	}*/
+	}
 
 
 
 
                           /*  codeeeeee  */
-/* footer */
+ /*footer */
+
 	.footer-dark1 {
 		padding: 50px 0;
 		color: #f0f9ff;
@@ -4244,4 +4247,145 @@ input, select, textarea {
 		opacity: 0.3;
 		font-size: 13px;
 		margin-bottom: 0;
+	}
+
+/* form */
+
+	.contact-section{
+		background-color: #ffffff;
+		/*padding: 80px 0  80px;*/
+		padding-left: 200px;
+	}
+
+	/*.contact-section .form-group .mybtn2{
+		color: #ffffff;
+	}*/
+	.contact-section .contact-form .form-group{
+		margin-bottom: 15px;
+	}
+	.contact-section .contact-form .form-control{
+		height: 50px;
+		color: #555555;
+		border: none;
+		border-bottom: 2px solid #d9d9d9;
+		border-radius: 0;
+		transition: all 0.5s ease;
+	}
+	.contact-section .contact-form textarea.form-control{
+		height: 200px;
+	}
+	.contact-section .contact-form .form-control:focus{
+		box-shadow: none;
+	}
+
+	#status{
+		text-align: center;
+		margin-left: 120px;
+		margin-right: 120px;
+	}
+
+	#status.success{
+		background-color: rgb(211, 250, 153);
+		animation: status 4s ease forwards;
+	}
+
+	#status.error{
+		background-color: rgb(250, 129, 92);
+		animation: status 4s ease forwards;
+	}
+
+	@keyframes status{
+		0%{
+			opacity: 1;
+			pointer-events: all;
+		}
+		90%{
+			opacity: 1;
+			pointer-events: all;
+		}
+		100%{
+			opacity: 0;
+			pointer-events: none;
+		}
+	}
+
+	#footer .inner .actions input{
+		background-color: black;
+	}
+
+	input[type=text]{
+		background-color: #d9d9d9;
+	}
+
+	input[type=email]{
+		background-color: #d9d9d9;
+	}
+
+	textarea{
+		background-color: #d9d9d9;
+	}
+	
+/* logo */
+	
+	#banner .logo img{
+		width: 60px;
+		padding-right: 10px;
+		padding-top: 0px;
+		padding-bottom: 20px;
+		padding-left: 10px;
+	}
+
+	#banner .logo{
+		margin-bottom: 50px;
+	}
+
+	/*#banner{
+		color: white;
+	}
+
+	#three p{
+		color: white;
+	}*/
+
+	#header img{
+		height: 30px;
+		float:left;
+		margin: 5px 10px;
+	}
+
+	#four .features img{
+		width: 50%;
+	}
+
+	/*#four .features a{
+		align-items: center;
+	}
+
+	/*#four .features article{
+		background-color: white;
+	}
+
+	#four .features article h5{
+        color: black;
+	}*/
+
+	  /*product*/
+
+	#four .features .product-price{
+		margin: 10px 0 15px;
+		
+	}
+
+	#four .features .product-price .new-price{
+		font-size: 25px;
+		font-weight: 700;
+		display: inline-block;
+		margin: 0 5px;
+	}
+
+	#four .features .product-price .old-price{
+		font-size: 25px;
+		display: inline-block;
+		color: #959595;
+		font-weight: 400;
 	}
