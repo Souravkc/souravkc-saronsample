@@ -96,7 +96,7 @@ input, select, textarea {
 
 	body {
 		background-color: #2e3141;
-		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../css/images/technology-4739550_1920.jpg");
+		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../css/images/webbg.blue\ and\ black.jfif");
 		background-size: auto,
  cover;
 		background-attachment: fixed,
@@ -171,7 +171,7 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
+		/*border-bottom: dotted 1px rgba(255, 255, 255, 0.35);*/
 		color: #ffffff;
 		text-decoration: none;
 	}
@@ -3072,7 +3072,7 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out;
-		background-color: #6a040ef8;
+		background-color: #171717;
 		height: 3.5em;
 		left: 0;
 		line-height: 3.5em;
@@ -3277,7 +3277,7 @@ input, select, textarea {
 			-ms-transition: opacity 0.35s ease, -ms-transform 0.35s ease;
 			transition: opacity 0.35s ease, transform 0.35s ease;
 			-webkit-overflow-scrolling: touch;
-			background: #6a040f;
+			background: #171717;
 			border-radius: 5px;
 			display: block;
 			max-width: 100%;
@@ -3623,22 +3623,22 @@ input, select, textarea {
 	}
 
 	.wrapper {
-		background-color:  #2e3141;
+		background-color:  #ffffff;
 		margin: 6.5em 0;
 		position: relative;
 	}
 
 		.wrapper:before, .wrapper:after {
-			background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%232e3141%3B' /%3E%3C/svg%3E");
+			background-image: url("../css/images/asdaw.png");
 		}
 
-		.wrapper:before {
+		/*.wrapper:before {
 			box-shadow: inset 0 -1px 0 0 #2e3141, 0 1px 0 0 #2e3141;
 		}
 
 		.wrapper:after {
 			box-shadow: inset 0 -1px 0 0 #2e3141, 0 1px 0 0 #2e3141;
-		}
+		}*/
 
 		.wrapper:before, .wrapper:after {
 			background-repeat: no-repeat;
@@ -4247,32 +4247,7 @@ input, select, textarea {
 
 /* form */
 
-	.contact-section{
-		background-color: #ffffff;
-		/*padding: 80px 0  80px;*/
-		padding-left: 200px;
-	}
-
-	/*.contact-section .form-group .mybtn2{
-		color: #ffffff;
-	}*/
-	.contact-section .contact-form .form-group{
-		margin-bottom: 15px;
-	}
-	.contact-section .contact-form .form-control{
-		height: 50px;
-		color: #555555;
-		border: none;
-		border-bottom: 2px solid #d9d9d9;
-		border-radius: 0;
-		transition: all 0.5s ease;
-	}
-	.contact-section .contact-form textarea.form-control{
-		height: 200px;
-	}
-	.contact-section .contact-form .form-control:focus{
-		box-shadow: none;
-	}
+	
 
 	#status{
 		text-align: center;
@@ -4281,13 +4256,15 @@ input, select, textarea {
 	}
 
 	#status.success{
-		background-color: rgb(211, 250, 153);
+		background-color: rgba(0, 255, 98, 0.74);
 		animation: status 4s ease forwards;
+		color: #000000;
 	}
 
 	#status.error{
-		background-color: rgb(250, 129, 92);
+		background-color: rgba(235, 55, 0, 0.849);
 		animation: status 4s ease forwards;
+		color: #000000;
 	}
 
 	@keyframes status{
@@ -4305,20 +4282,21 @@ input, select, textarea {
 		}
 	}
 
-	#footer .inner .actions input{
-		background-color: black;
-	}
+
 
 	input[type=text]{
-		background-color: #d9d9d9;
+		background-color: #fdf7f7;
+		color: #000000;
 	}
 
 	input[type=email]{
-		background-color: #d9d9d9;
+		background-color: #fdf7f7;
+		color: #000000;
 	}
 
 	textarea{
-		background-color: #d9d9d9;
+		background-color: #fdf7f7;
+		color: #000000;
 	}
 	
 /* logo */
@@ -4354,14 +4332,14 @@ input, select, textarea {
 	}
 
 
-	/*#four .features article{
+	#four .features article{
 		background-color: #FFFFFF;
-		/*box-shadow: 0 0 10px #dddde3;*/
+		box-shadow: 0 0 10px #dddde3;
 	}
 
-	/*#four .features article h5{
+	#four .features article h3{
         color: black;
-	}*/
+	}
 
 	  /*product*/
 
@@ -4371,6 +4349,7 @@ input, select, textarea {
 	}
 
 	#four .features .product-price .new-price{
+		color: #000000;
 		font-size: 18px;
 		font-weight: 700;
 		display: inline-block;
@@ -4385,4 +4364,14 @@ input, select, textarea {
 	}
 	#four .features {
 		color: #070606 !important;
+	}
+	#four .major{
+		color: #000000;
+	}
+
+	.footer-dark1 .footer-row {
+		display: flex;
+		justify-content: space-around;
+		
+
 	}
