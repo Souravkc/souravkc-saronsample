@@ -3014,11 +3014,11 @@ input, select, textarea {
 			.features article .image {
 				border-radius: 5px 5px 0 0;
 				display: block;
-				margin-bottom: 0.75em;
+				position: relative;
+				/*margin-bottom: 0.75em;
 				margin-left: 4.25em;
 				margin-top: 0.25em;
-				position: relative;
-				width: calc(100% + 3.5em);
+				width: calc(100% + 3.5em);*/
 			}
 
 				.features article .image img {
@@ -3043,12 +3043,12 @@ input, select, textarea {
 				width: calc(50% - 0.875em - 1px);
 			}
 
-				.features article .image {
+				/*.features article .image {
 					margin-bottom: 0.75em;
 					margin-left: 3.25em;
 					margin-top: 0.25em;
 					width: calc(100% + 3em);
-				}
+				}*/
 
 		}
 
@@ -3382,7 +3382,7 @@ input, select, textarea {
 			width: 55em;
 		}
 
-		#banner .logo {
+		/*#banner .logo {
 			-moz-transition: opacity 2s ease, -moz-transform 1s ease;
 			-webkit-transition: opacity 2s ease, -webkit-transform 1s ease;
 			-ms-transition: opacity 2s ease, -ms-transform 1s ease;
@@ -3394,7 +3394,7 @@ input, select, textarea {
 			opacity: 1;
 			margin: 0 0 1.3em 0;
 			margin-bottom: 10px;
-		}
+		}*/
 
 
 			#banner .logo .icon {
@@ -4301,7 +4301,22 @@ input, select, textarea {
 	
 /* logo */
 	
-	#banner .logo img{
+    #banner .inner{
+		width: 55em;
+		margin: 0 auto;
+		display: flex;
+		align-items: center;
+	}
+	#banner .inner h2{
+		display: inline-block;
+		margin-bottom: 0;
+		padding-bottom: 0;
+		padding-left: 10px;
+	}
+	#banner .inner img{
+		height: 3rem;
+	}
+	/*#banner .logo img{
 		width: 60px;
 		padding-right: 10px;
 		padding-top: 0px;
@@ -4311,7 +4326,7 @@ input, select, textarea {
 
 	#banner .logo{
 		margin-bottom: 50px;
-	}
+	}*/
 
 	/*#banner{
 		color: white;
@@ -4329,6 +4344,8 @@ input, select, textarea {
 
 	#four .features img{
 		width: 50%;
+		display: block;
+        margin: 0 auto;
 	}
 
 
@@ -4372,6 +4389,7 @@ input, select, textarea {
 	.footer-dark1 .footer-row {
 		display: flex;
 		justify-content: space-around;
-		
+
 
 	}
+
