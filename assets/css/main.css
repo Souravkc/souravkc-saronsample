@@ -3429,8 +3429,8 @@ input, select, textarea {
 			opacity: 1;
 			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
 			font-size: 2.25em;
-			margin-bottom: 0.8em;
-			padding-bottom: 0.4em;
+			/*margin-bottom: 0.8em;
+			padding-bottom: 0.4em;*/
 		}
 
 		#banner p {
@@ -4302,19 +4302,23 @@ input, select, textarea {
 /* logo */
 	
     #banner .inner{
-		width: 55em;
-		margin: 0 auto;
+		/*width: 55em;
+		margin: 0 auto;*/
 		display: flex;
 		align-items: center;
 	}
 	#banner .inner h2{
-		display: inline-block;
+		display: inline;
+		width: fit-content;
 		margin-bottom: 0;
 		padding-bottom: 0;
-		padding-left: 10px;
+		padding-left: 0;
 	}
 	#banner .inner img{
-		height: 3rem;
+		height: 5rem;
+		width: auto;
+		padding-left: 0;
+		margin-right: 10px;
 	}
 	/*#banner .logo img{
 		width: 60px;
